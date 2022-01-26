@@ -1,0 +1,146 @@
+Q1. What are Data Types?
+A data type is a set of values and a set of operations defined on data. 
+An implementation of a data type is an expression of data and operations in terms of a specific programming language such as Java, C ++, or Python.
+
+Q2. What does immutable mean and what three types of Python core data types are considered immutable?
+An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, and tuples in Python fall into this category. 
+Although you cannot modify an immutable object in place, you can always create a new one by running an expression.
+
+Q3. What does sequence mean and which three types of data fall into this category?
+A sequence data type is a collection of objects ordered by a specific position. 
+In Python, Strings, lists, and tuples are the data types based on sequences. 
+The Sequences share common sequence operations, such as indexing, concatenation, and slicing, but also have type-specific method calls.
+
+Q4. How to check a data type of an object?
+Python provides type() and isinstance() functions to check the type of these variables. 
+
+Q5. What is docstring in Python?
+Documentation string or docstring is a multiline string used to document a specific code segment.
+The docstring should describe what the function or method does
+
+Q6. What is the difference between docstring and comments?
+Docstrings are denoted by three inverted commas(") at ends and comments use hash(#) symbol
+Docstrings are read by the python interpreter whereas comments are not
+
+#############################################################################################################################################################3
+
+Q7. Are there operators in Python other than arithmetic and logical operators?
+Yes, there are operators in Python other than arithmetic and logical ones. 
+The others are comparison, identity, membership, and assignment operators. 
+Each type of operators contains multiple operators.
+
+Q8. Explain comparison Operators
+These operators are used for the comparison between two values.
+Operators	        How to use	          Function
+==  	          value1 == value2	      Checks if value1 is equal to value2
+>	              value1 > value2	        Checks if value1 is greater than value2
+<     	        value1 < value2       	Checks if value1 is less than value2
+>=           	  value1 >= value2       	Checks if value1 is greater than and equal to value2
+<=        	    value1 <= value2	      Checks if value1 is less than and equal to value2
+<>      	      value1 <> value2      	Checks if value1 is not equal to value2
+!=	            value1 != value2	      Checks if value1 is not equal to value2
+
+Q9. Explain Identity Operators
+These operators are used to compare the identity of the variables or type of the variables.
+Operators	        How to use	          Function
+is	            value1 is value2	      Checks if both the objects refer to the same object
+is not	        value1 is not value2	   Checks if both the objects do not refer to the same object
+
+Q10. Explain Membership Operators
+These operators are used to check the membership of a variable in a sequence like lists, strings, etc.
+Operators     	How to use	                Function
+in	          value1 in anySequence   	    If used with a condition, it checks if a value is present in a sequence. 
+                                            If used with a for loop, it creates value1 variable and assign sequence values to it one by one.
+not in	      value1 not in anySequence	    If used with a condition, it checks if a value is not present in a sequence.
+
+Q11. Explain Assignment Operators
+These operators are used to assign a value to a variable. The main assignment operator is =. It can be used with the arithmetic operators.
+
+Operators	        How to use	              Function
+=       	        value1 = value2	          It updates the value of value1 and assigns value2 to it.
++=	              value1 += value2	        It adds the value1 and value2 and assigns the new value to value1
+-=        	      value1 -= value2	        It subtracts value2 from value1 and assigns the new value to value1
+*=              	value1 *= value2        	It multiplies value1 and value2 and assigns the new value to value1
+/=              	value1 /= value2        	It divides value1 by value2 and assigns the new value to value1
+%=              	value1 %= value2        	It takes the modulus of value1 and value2 and assigns the new value to value1
+
+##################################################################################################################################################
+
+Q12. What is a conditional statement Which conditional statements are available in Python ?
+Conditional statements are the programming statements which alter the course of execution based on a condition.
+Conditional Statements are also called Control Statements.
+Python If
+Python If-Else
+
+Q13. What constitutes “True” in Python?
+A true expression is any expression that does not evaluate to 0, the empty list [ ], tuple ( ), dictionary { } or the objects None or False.
+
+Q14. How are if, elif, and else blocks defined?
+All blocks in Python are defined by indenting. All lines of a particular code block must have the same level of indenting.
+
+Q15. Illustrate a switch-case equivalent using if-elif-else.
+if item==valueA:
+. . .
+elif item == valueB:
+. . .
+elif item ==  valueC:
+. . .
+else:
+… #default code
+
+########################################################################################################################################################
+
+Q16. Which looping statements are available in Python ?
+Looping statements are those which repeat the execution of a set of statements in a cyclic manner based on a condition.
+Python For
+Python While
+
+Q17. What are loop interruption statements in Python?
+A. There are two types of loop interruption statements in Python that let users terminate a loop iteration prematurely, 
+i.e., without letting the loop run its full iterations.
+
+Q18. How many loop interruption statements are present in python?
+Following are the two loop interruption statements:
+Python break statement: This statement immediately terminates the loop entirely, and the control flow of the program is shifted directly to the outside of the loop.
+Python continue statement: Continue statement terminates the current loop iteration and moves the control flow of the program to the next iteration of the loop, letting the user skip only the current iteration.
+
+Q19. Explain Python For Loop Syntax.
+In Python, you can use the “for” loop in the following manner.
+
+for iter in sequence:
+    statements(iter)
+
+The “iter” represents the iterating variable. It gets assigned with the successive values from the input sequence.
+The “sequence” may refer to any of the following Python objects such as a list, a tuple or a string.
+
+Q20. Explain Else Clause with Python For Loop
+Python allows using an optional else statement along with the “for” loop.
+The code under the else clause executes after the completion of the “for” loop. 
+However, if the loop stops due to a “break” call, then it’ll skip the “else” clause.
+
+# For-Else Syntax
+
+for item in seq:
+    statement 1
+    statement 2
+    if <cond>:
+        break
+else:
+    statements
+
+Q21. Explain Python While Loop – Syntax
+
+#While Loop – Syntax
+
+while some condition (or expression) :
+    a block of code
+    
+Q22. Explain Else Clause with Python While Loop
+
+while some condition (or expression) :
+    statement 1
+    statement 2
+    if <cond>:
+        break
+else:
+    statements
